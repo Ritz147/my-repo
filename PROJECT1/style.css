@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Instrument+Serif&family=Raleway&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Barriecito', cursive;
+}
+body{
+  background-color:#FBD85D ;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h1{
+   color:black;
+   margin: auto;
+   padding: 5rem;
+   font-size: 6rem;
+}
+form{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+}
+#temp1,#temp2{
+font-size: 3rem;
+color: whitesmoke;
+background-color: black;
+border: black;
+border-radius: 25px;
+cursor: pointer;
+}
+#temp1:hover{
+border:4px  #D8D9DA solid;
+}
+#temp2:hover{
+border:4px  #D8D9DA solid;
+}
+#input{
+display: flex;
+flex-direction: column;
+row-gap: 2rem;
+flex-wrap: wrap;
+}
+.number{
+border:whitesmoke;
+font-size: 2.5rem;
+border-radius: 25px;
+background-color: whitesmoke;
+text-align: center;
+}
+.number:hover{
+border: 4px black solid;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 5rem;
+  }
+ form{
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   column-gap: 2rem;
+   flex-wrap: wrap;
+ }
+ #temp1,#temp2{
+ font-size: 2.5rem;
+ width:8rem;
+ }
+ .number{
+ width:24rem;
+ font-size: 2.5rem;
+ }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1{
+    font-size: 5.5rem;
+  }
+ form{
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   column-gap: 2rem;
+   flex-wrap: wrap;
+ }
+ #temp1,#temp2{
+ font-size: 3rem;
+ width:10rem;
+ }
+ .number{
+ width:30rem;
+ font-size: 3rem;
+ }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 750px) {
+  h1{
+    font-size: 6rem;
+  }
+ form{
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   column-gap: 2rem;
+   flex-wrap: wrap;
+ }
+ #temp1,#temp2{
+ font-size: 3rem;
+ width:10rem;
+ }
+ .number{
+ width:35rem;
+ font-size: 3rem;
+ }
+  
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h1{
+    font-size: 6rem;
+  }
+ form{
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   column-gap: 2rem;
+   flex-wrap: wrap;
+ }
+ #temp1,#temp2{
+ font-size: 3rem;
+ }
+ .number{
+ font-size: 2.5rem;
+ }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h1{
+    padding: 5rem;
+    font-size: 6rem;
+ }
+ form{
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   column-gap: 2rem;
+   flex-wrap: wrap;
+ }
+ #temp1,#temp2{
+ font-size: 3rem;
+ color: whitesmoke;
+ background-color: black;
+ border: black;
+ border-radius: 25px;
+ cursor: pointer;
+ }
+ #temp1:hover{
+ border:4px  #D8D9DA solid;
+ }
+ #temp2:hover{
+ border:4px  #D8D9DA solid;
+ }
+ #input{
+ display: flex;
+ flex-direction: column;
+ row-gap: 2rem;
+ flex-wrap: wrap;
+ }
+ .number{
+ border:whitesmoke;
+ font-size: 2.5rem;
+ border-radius: 25px;
+ background-color: whitesmoke;
+ text-align: center;
+ }
+ .number:hover{
+ border: 4px black solid;
+ }
+}
